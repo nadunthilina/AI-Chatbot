@@ -1,6 +1,6 @@
 <?php  
-$api_key = "AIzaSyA3hSP6cos5s_8YEFmDYpaR3ocDWvXZ3TU";
-$url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=$api_key";
+$api_key = "add your api key ";
+$url = "";
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
