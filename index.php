@@ -9,19 +9,21 @@
 <body>
     <div id="chat-container">
         <div id="sidebar">
-            <h1>NW Chatbot</h1>
-            <button id="new-chat-btn">New Chat</button>
+            <div id="sidebar-header">
+                <h1>NW Chatbot</h1>
+                <button id="new-chat-btn">+ New Chat</button>
+            </div>
             <div id="chat-history">
-                <h3>Chat History</h3>
-                <ul id="history-list"></ul>
+                <h3>Conversation History</h3>
+                <div id="history-list"></div>
             </div>
         </div>
         <div id="main-chat">
             <div id="chat-box"></div>
             <div id="chat-controls">
                 <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
-                <button onclick="sendMessage()">Send</button>
-                <button onclick="clearCurrentChat()">Clear Chat</button>
+                <button id="send-btn" onclick="sendMessage()">Send</button>
+                <button id="clear-btn" onclick="clearCurrentChat()">Clear</button>
             </div>
         </div>
     </div>
